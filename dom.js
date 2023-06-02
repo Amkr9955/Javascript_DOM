@@ -81,10 +81,77 @@ Object Oriented Representation*/
 // console.log(titles);
 // titles[0].textContent='Hello';
 
-// var odd=document.querySelectorAll('li:nth-child(odd');
-// var even=document.querySelectorAll('li:nth-child(odd');
+// var odd=document.querySelectorAll('li:nth-child(odd)');
+// var even=document.querySelectorAll('li:nth-child(odd)');
 
 // for(var i=0;i<odd.length;i++){
 //     odd[i].style.backgroundColor='f4f4f4';
 //     even[i].style.backgroundColor='#ccc';
 // }
+
+//TRAVERSING THE DOM
+// var itemList=document.querySelector('#items');
+//parentNode
+
+// console.log(itemList.parentNode);
+// itemList.parentNode.style.backgroundColor='pink';
+// console.log(itemList.parentNode.parentNode.parentNode);
+
+//ParentElement
+
+// console.log(itemList.parentElement);
+//  itemList.parentElement.style.backgroundColor='pink';
+// console.log(itemList.parentElement.parentElement.parentElement);
+
+//childNodes
+
+// console.log(itemList.childNodes);
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor='yellow';
+
+//Firstchild
+
+// console.log(itemList.firstChild);
+
+//firstElementChild
+
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.innerText='Hello1';
+
+//nextSibling
+
+// console.log(itemList.nextSibling);
+
+//previousSibling
+
+// console.log(itemList.previousSibling);
+
+//previousElementSibling
+// console.log(itemList.previousElementSibling);
+
+//Create a div
+
+// var newDiv=document.createElement('div');
+// //add class
+// newDiv.className='Hello';
+
+// //add id
+// newDiv.id='hello1';
+
+// //add attribute
+
+// newDiv.setAttribute('title','Hello Div');
+
+// //create text node
+// var newDivText=document.createTextNode('Hello World');
+
+// //add text to div
+// newDiv.appendChild(newDivText);
+
+// var container=document.querySelector('header .container');
+// var h1=document.querySelector('header h1');
+
+// console.log(newDiv);
+
+// container.insertBefore(newDiv,h1);
