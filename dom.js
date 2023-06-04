@@ -155,3 +155,63 @@ Object Oriented Representation*/
 // console.log(newDiv);
 
 // container.insertBefore(newDiv,h1);
+
+//Events
+
+// var button=document.getElementById('button').addEventListener('click',buttonClick);
+ //function buttonClick(e){
+//      console.log('Button clicked');
+//      console.log(e);
+//      console.log(e.target);
+//      console.log(e.target.id);
+//     var output=document.getElementById('output');
+//     output.innerHTML='<h3>'+e.target.id+'</h3>';
+//     console.log(e.clientX);
+//     console.log(e.clientY);
+
+//}
+
+//Mouse Events
+
+// var button=document.getElementById('button');
+// var box=document.getElementById('box');
+// button.addEventListener('click',runEvent);
+// button.addEventListener('doubleclick',runEvent);
+// button.addEventListener('mousedown',runEvent);
+// button.addEventListener('mouseup',runEvent);
+// button.addEventListener('mouseenter',runEvent);
+// button.addEventListener('mouseleave',runEvent);
+// button.addEventListener('mouseover',runEvent);
+
+// box.addEventListener('mousemove',runEvent);
+
+// function runEvent(e){
+//     console.log('EVENT TYPE:'+e.type);
+//     // output.innerHTML='<h3>MouseX:'+e.offsetX+'</h3><h3>MouseY:'+e.offsetY+'</h3>';
+
+
+//     // box.style.background="rgb("+e.offsetX+","+e.offsetY+",40)";
+//     // document.body.style.background="rgb("+e.offsetX+","+e.offsetY+",40)";
+// }
+
+
+//kerevents
+// var itemInput=document.querySelector('input[type="text"]');
+// var form=document.querySelector('form');
+
+// itemInput.addEventListener('keydown',runEvent);
+// itemInput.addEventListener('keyup',runEvent);
+// itemInput.addEventListener('keypress',runEvent);
+// itemInput.addEventListener('focus',runEvent);
+// itemInput.addEventListener('blur',runEvent);
+// itemInput.addEventListener('cut',runEvent);
+// itemInput.addEventListener('paste',runEvent);
+
+// form.addEventListener('submit',runEvent);
+
+// function runEvent(e){
+//     e.preventDefault();
+//     console.log('EVENT TYPE:'+e.type);
+    // console.log(e.target.value);
+    
+// }
