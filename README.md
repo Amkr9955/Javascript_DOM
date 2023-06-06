@@ -18,4 +18,7 @@ The W3C DOM standard is separated into 3 different parts:
   <li>HTML DOM - standard model for HTML documents</li>
   </ul>
   </p>
+  
+  PROJECT:ITEM LISTER:[LINK](https://amkr9955.github.io/Javascript_DOM/JS_DOM_project/)
+          
 <span>More about DOM :</span><a href="https://www.w3schools.com/js/js_htmldom.asp">W3School</a>
